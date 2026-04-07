@@ -7,7 +7,7 @@ const config: Phaser.Types.Core.GameConfig = {
   backgroundColor: '#1a2e1a',
   scene: {
     create() {
-      const text = this.add.text(400, 250, '🌿 LENDA', {
+      this.add.text(400, 250, '🌿 LENDA', {
         fontSize: '64px',
         color: '#a8d5a2',
         fontStyle: 'bold'
